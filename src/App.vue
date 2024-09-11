@@ -6,9 +6,10 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
     <div class="container flex flex-wrap items-center justify-between mx-auto my-2">
-      <a href="index.html" class="flex items-center">
+      <RouterLink
+      to="/" class="flex items-center">
         <img src="@/assets/img/logo.svg" class="h-8 ml-3 sm:ml-0 sm:h-8" alt="Zullkit Logo" />
-      </a>
+        </RouterLink>
       <div class="md:order-2">
         <a href="login.html"
           class="px-8 py-3 mt-2 mr-2 text-base font-medium text-black bg-gray-200 border border-transparent rounded-full hover:bg-gray-300 md:py-2 md:text-sm md:px-8 hover:shadow">
